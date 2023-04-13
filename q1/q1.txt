@@ -1,0 +1,13 @@
+Git commit -m "A"
+Git checkout -b develop
+Git commit -am "B"
+Git checkout main
+Git commit -am "C"
+Git merge develop
+Git commit -am "D"
+Git checkout develop
+Git commit -am "E"
+Git checkout main
+Git merge develop
+Git commit -am "F"
+Git checkout develop
